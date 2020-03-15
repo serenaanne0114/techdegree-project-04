@@ -153,6 +153,8 @@ a { text-decoration: none; }
 /* ============================================= */
 .btn { margin-top: 15px; width: 100%; color: #fff; border: none; padding: 10px 0; text-transform: uppercase; border-radius: 5px; }
 
+@media (min-width: 768px) { .btn { padding: 10px 30px; } }
+
 .default { background-color: #51ddfc; }
 
 .error { background-color: #e4757a; }
@@ -247,6 +249,5 @@ a { text-decoration: none; }
   .col-12 { flex-basis: 100%; }
   .nav { flex-direction: row; justify-content: flex-end; align-items: center; }
   .nav-link { flex-basis: 100px; }
-  .btn { padding: 10px 30px; }
   .btn + .btn { margin-left: 10px; }
   .logo { margin-left: initial; margin-right: initial; } }
