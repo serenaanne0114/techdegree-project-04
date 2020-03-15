@@ -1,0 +1,73 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $color-tertiary;
+}
+
+.theme.col-2 {
+  background-color: $color-quaternary;
+}
+
+.theme.col-3 {
+  background-color: $color-quinary;
+}
+
+.theme.col-4 {
+  background-color: $color-senary;
+}
+
+.theme.col-5 {
+  background-color: $color-septenary;
+}
+
+.theme.col-6 {
+  background-color: $color-octonary;
+}
+
+.theme.col-7 {
+  background-color: $color-nonary;
+}
+
+.theme.col-8 {
+  background-color: $color-denary;
+}
+
+.theme.col-9 {
+  background-color: $color-eleven;
+}
+
+.theme.col-10 {
+  background-color: $color-duodenary;
+}
+
+.theme.col-11 {
+  background-color: $color-secondary;
+}
+
+.theme.col-12 {
+  background-color: $color-thirteen;
+}
+
+.card {
+  flex-basis: 100%;
+}
