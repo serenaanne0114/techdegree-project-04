@@ -1,26 +1,48 @@
 /* ============================================= */
-/*              Color Variables                   */
+/*      Descriptive Color Variables                */
 /* ============================================= */
+$white: #fff;
+$dark-grey: #777;
+$light-grey: #ccc;
+$viking: #58e1c1;
+$malibu: #51ddfc;
+$purple-mountain-majesty: #927bc1;
+$coral: #fd7856;
+$french-lilac: #deb2ee;
+$anakiwa: #7ee6fd;
+$vista-blue:  #88d9a0;
+$fountain-blue: #4da2bb;
+$sea-pink:  #ec9fa3;
+$vivid-tangerine: #fd9f85;
+$sunglo: #e4757a;
+$emerald: #63cc82;
+$riptide: #80e8d1;
 
-$color-primary: #58e1c1;
-$color-secondary:  #51ddfc;
-$color-tertiary: #927bc1;
-$color-quaternary: #fd7856;
-$color-quinary: #deb2ee;
-$color-senary: #7ee6fd;
-$color-septenary: #88d9a0;
-$color-octonary: #4da2bb;
-$color-nonary: #ec9fa3;
-$color-denary: #fd9f85;
-$color-eleven: #e4757a;
-$color-duodenary: #63cc82;
-$color-thirteen: #80e8d1;
-$color-fourteen: #777;
-$color-fifteen: #fff;
-$color-sixteen: #ccc;
+/* ============================================= */
+/*              Font Weight                  */
+/* ============================================= */
+$fw-sm: 300;
+$fw-lg: 700;
+
+/* ============================================= */
+/*              Font size                  */
+/* ============================================= */
+$fs: 1em;
 
 /* ============================================= */
 /*              Media Query Breakpoints                  */
 /* ============================================= */
 
 $brk-wide: '(min-width: 768px)';
+
+/* ============================================= */
+/*              Font Stacks                  */
+/* ============================================= */
+
+$stack-serif: "Times New Roman", Times, serif;
+
+/* ============================================= */
+/*              Border Radius                 */
+/* ============================================= */
+
+$br: 5px;

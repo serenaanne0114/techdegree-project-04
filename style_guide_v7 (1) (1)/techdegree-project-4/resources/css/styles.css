@@ -4,7 +4,7 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: $stack-serif;
   color: $color-fourteen;
   box-sizing: border-box;
 }
@@ -44,7 +44,7 @@ a {
   margin-left: 20px;
   padding-left: 20px;
   border-left: 8px solid $color-primary;
-  border-radius: 5px;
+  border-radius: $br;
 }
 
 
@@ -67,7 +67,7 @@ a {
   flex-basis: 100%;
   min-height: 25px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: $br;
 }
 
 .theme.col-1 {
@@ -162,7 +162,7 @@ a {
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: $br;
 }
 
 .default {

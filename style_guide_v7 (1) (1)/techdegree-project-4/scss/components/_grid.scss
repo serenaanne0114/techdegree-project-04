@@ -17,55 +17,55 @@
   flex-basis: 100%;
   min-height: 25px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: $br;
 }
 
 .theme.col-1 {
-  background-color: $color-tertiary;
+  background-color: $purple-mountain-majesty;
 }
 
 .theme.col-2 {
-  background-color: $color-quaternary;
+  background-color: $coral;
 }
 
 .theme.col-3 {
-  background-color: $color-quinary;
+  background-color: $french-lilac;
 }
 
 .theme.col-4 {
-  background-color: $color-senary;
+  background-color: $anakiwa;
 }
 
 .theme.col-5 {
-  background-color: $color-septenary;
+  background-color: $vista-blue;
 }
 
 .theme.col-6 {
-  background-color: $color-octonary;
+  background-color: $fountain-blue;
 }
 
 .theme.col-7 {
-  background-color: $color-nonary;
+  background-color: $sea-pink;
 }
 
 .theme.col-8 {
-  background-color: $color-denary;
+  background-color: $vivid-tangerine;
 }
 
 .theme.col-9 {
-  background-color: $color-eleven;
+  background-color: $sunglo;
 }
 
 .theme.col-10 {
-  background-color: $color-duodenary;
+  background-color: $emerald;
 }
 
 .theme.col-11 {
-  background-color: $color-secondary;
+  background-color: $malibu;
 }
 
 .theme.col-12 {
-  background-color: $color-thirteen;
+  background-color: $riptide;
 }
 
 .card {

@@ -3,8 +3,8 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
-  color: $color-fourteen;
+  font-family: $stack-serif;
+  color: $dark-grey;
   box-sizing: border-box;
 }
 
@@ -22,26 +22,32 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: $color-primary;
+  color: $viking;
   margin-left: 10px;
+  padding-left: 15px;
+  margin-bottom: 1em;
 }
 
 .headline-secondary {
-  font-weight: 300;
-  color: $color-fourteen;
+  font-weight: $fw-sm;
+  color: $dark-grey;
+  font-size: $fs;
+  margin-left: .5rem;
 }
 
 .link {
-  color: $color-secondary;
-  font-weight: 700;
+  color: $malibu;
+  font-weight: $fw-lg;
+  font-size: $fs;
+  text-decoration: none;
 }
 
 .blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: $fs;
+  font-weight: $fw-sm;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid $color-primary;
-  border-radius: 5px;
+  border-left: 8px solid $viking;
+  border-radius: $br;
 }

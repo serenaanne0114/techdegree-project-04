@@ -5,11 +5,11 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: $color-fifteen;
+  color: $white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: $br;
 
   @media #{$brk-wide} {
     padding: 10px 30px;
@@ -17,21 +17,21 @@
 }
 
 .default {
-  background-color: $color-secondary;
+  background-color: $malibu;
 }
 
 .error {
-  background-color: $color-eleven;
+  background-color: $sunglo;
 }
 
 .info {
-  background-color: $color-tertiary;
+  background-color: $purple-mountain-majesty;
 }
 
 .success {
-  background-color: $color-duodenary;
+  background-color: $emerald;
 }
 
 .warning {
-  background-color: $color-quaternary;
+  background-color: $coral;
 }
