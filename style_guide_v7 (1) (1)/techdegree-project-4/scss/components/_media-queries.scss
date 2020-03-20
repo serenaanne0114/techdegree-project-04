@@ -4,10 +4,7 @@
 @media (min-width: 768px) {
 
 .container {
-  max-width: 1400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include center
 }
 
 .centered {

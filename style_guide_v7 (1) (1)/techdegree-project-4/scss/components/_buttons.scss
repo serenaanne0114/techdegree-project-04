@@ -1,11 +1,18 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+$buttons:
+'default' $color-default,
+'error' $color-error,
+'info'  $color-info,
+'success' $color-success,
+'warning'$color-warning;
+
 
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: $white;
+  color: $color-bakground;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -14,24 +21,4 @@
   @media #{$brk-wide} {
     padding: 10px 30px;
   }
-}
-
-.default {
-  background-color: $malibu;
-}
-
-.error {
-  background-color: $sunglo;
-}
-
-.info {
-  background-color: $purple-mountain-majesty;
-}
-
-.success {
-  background-color: $emerald;
-}
-
-.warning {
-  background-color: $coral;
 }

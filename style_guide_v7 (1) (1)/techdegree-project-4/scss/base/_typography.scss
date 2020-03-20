@@ -4,7 +4,7 @@
 
 * {
   font-family: $stack-serif;
-  color: $dark-grey;
+  color: $color-body-font;
   box-sizing: border-box;
 }
 
@@ -20,23 +20,26 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+.headline {
+  &-primary {
+    color: $color-primary-theme;
+    margin-left: 10px;
+    padding-left: 15px;
+    margin-bottom: 1em;
+  }
 
-.headline-primary {
-  color: $viking;
-  margin-left: 10px;
-  padding-left: 15px;
-  margin-bottom: 1em;
-}
+  &-secondary {
+    font-weight: $fw-sm;
+    color: $color-body-font;
+    font-size: $fs;
+    margin-left: .5rem;
+    }
+  }
 
-.headline-secondary {
-  font-weight: $fw-sm;
-  color: $dark-grey;
-  font-size: $fs;
-  margin-left: .5rem;
-}
+
 
 .link {
-  color: $malibu;
+  color: $color-secodary-theme;
   font-weight: $fw-lg;
   font-size: $fs;
   text-decoration: none;
@@ -48,6 +51,6 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid $viking;
+  border-left: 8px solid $color-primary-theme;
   border-radius: $br;
 }

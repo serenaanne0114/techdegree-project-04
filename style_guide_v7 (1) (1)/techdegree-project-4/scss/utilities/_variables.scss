@@ -19,6 +19,19 @@ $emerald: #63cc82;
 $riptide: #80e8d1;
 
 /* ============================================= */
+/*      Theme Color Variables                */
+/* ============================================= */
+$color-background: $white;
+$color-body-font: $dark-grey;
+$color-primary-theme: $viking;
+$color-secondary-theme: $malibu;
+$color-default: $color-secondary-theme;
+$color-success: $emerald;
+$color-error: $sunglo;
+$color-warning: $coral;
+$color-info: $purple-mountain-majesty;
+$color-img-frame: $light-grey;
+/* ============================================= */
 /*              Font Weight                  */
 /* ============================================= */
 $fw-sm: 300;
@@ -28,6 +41,13 @@ $fw-lg: 700;
 /*              Font size                  */
 /* ============================================= */
 $fs: 1em;
+
+
+
+/* ============================================= */
+/*              Max width                */
+/* ============================================= */
+$max-width: 1400px;
 
 /* ============================================= */
 /*              Media Query Breakpoints                  */
