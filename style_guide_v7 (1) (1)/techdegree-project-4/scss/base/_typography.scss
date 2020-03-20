@@ -14,6 +14,10 @@ p {
 
 a {
   text-decoration: none;
+
+  &-hover {
+    text-decoration: underline;
+  }
 }
 
 
@@ -23,7 +27,7 @@ a {
 .headline {
   &-primary {
     color: $color-primary-theme;
-    margin-left: 10px;
+    margin-left: $standard-spacing;
     padding-left: 15px;
     margin-bottom: 1em;
   }
@@ -36,13 +40,11 @@ a {
     }
   }
 
-
-
 .link {
-  color: $color-secodary-theme;
+  color: $color-secondary-theme;
   font-weight: $fw-lg;
   font-size: $fs;
-  text-decoration: none;
+
 }
 
 .blockquote {

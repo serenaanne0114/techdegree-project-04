@@ -1,10 +1,26 @@
 /* ============================================= */
 /*              Mixins                   */
 /* ============================================= */
-@mixin center {
-  width: 100%;
-  max-width: $max-width;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+@mixin mq($brk) {
+  @media(min-width: $brk) {
+    @content;
+}
+}
+
+@mixin column-colors {
+  @for $i from 1 through $column-numbers {
+    &-#{$i} {
+      background-color: nth($column-numbers, $i);
+    }
+  }
+}
+
+@mixin colums {
+  @for $i from 1 through $column-numbers {
+    .col-#{$i} {
+      $j: 100 /$column-numbers *$i;
+      $k: decimal-round($j, 2, round);
+      flex-basis: $k * 1%
+    }
+  }
 }

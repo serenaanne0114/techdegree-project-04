@@ -8,22 +8,10 @@
 /*      Descriptive Color Variables                */
 /* ============================================= */
 /* ============================================= */
-/*              Font Weight                  */
+/*      Theme Color Variables                */
 /* ============================================= */
 /* ============================================= */
-/*              Font size                  */
-/* ============================================= */
-/* ============================================= */
-/*              Max width                */
-/* ============================================= */
-/* ============================================= */
-/*              Media Query Breakpoints                  */
-/* ============================================= */
-/* ============================================= */
-/*              Font Stacks                  */
-/* ============================================= */
-/* ============================================= */
-/*              Border Radius                 */
+/*              Miscellenious                */
 /* ============================================= */
 /* ============================================= */
 /*              Mixins                   */
@@ -149,6 +137,8 @@ p { line-height: 1.45em; }
 
 a { text-decoration: none; }
 
+a-hover { text-decoration: underline; }
+
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
@@ -156,7 +146,7 @@ a { text-decoration: none; }
 
 .headline-secondary { font-weight: 300; color: #777; font-size: 1em; margin-left: .5rem; }
 
-.link { color: #51ddfc; font-weight: 700; font-size: 1em; text-decoration: none; }
+.link { color: #51ddfc; font-weight: 700; font-size: 1em; }
 
 .blockquote { font-size: 1em; font-weight: 300; font-style: italic; margin-left: 20px; padding-left: 20px; border-left: 8px solid #58e1c1; border-radius: 5px; }
 
@@ -166,19 +156,27 @@ a { text-decoration: none; }
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-.btn { margin-top: 15px; width: 100%; color: #fff; border: none; padding: 10px 0; text-transform: uppercase; border-radius: 5px; }
-
-@media (min-width: 768px) { .btn { padding: 10px 30px; } }
-
 .default { background-color: #51ddfc; }
+
+.default:hover { background-color: #9cecfd; }
 
 .error { background-color: #e4757a; }
 
+.error:hover { background-color: #f1b5b8; }
+
 .info { background-color: #927bc1; }
+
+.info:hover { background-color: #bdafd9; }
 
 .success { background-color: #63cc82; }
 
+.success:hover { background-color: #9ddfb0; }
+
 .warning { background-color: #fd7856; }
+
+.warning:hover { background-color: #feb4a2; }
+
+.btn { margin-top: 15px; width: 100%; color: #fff; border: none; padding: 10px 0; text-transform: uppercase; border-radius: 5px; }
 
 /* ============================================= */
 /*              Forms                            */
@@ -196,7 +194,7 @@ a { text-decoration: none; }
 
 .nav-link { text-align: center; border-radius: 5px; padding: 10px 0; display: block; width: 100%; transition: background-color .2s ease-in-out, color .2s ease-in-out; }
 
-.nav-link:hover { color: #fff; background-color: #58e1c1; }
+.nav-link:hover { color: #fff; background-color: #58e1c1; text-decoration: none; }
 
 /* ============================================= */
 /*              Images                           */

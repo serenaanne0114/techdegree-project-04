@@ -8,17 +8,23 @@ $buttons:
 'success' $color-success,
 'warning'$color-warning;
 
+@each $name,
+$color in $buttons {
+  .#{$name} {
+    background-color: $color;
+
+    &:hover {
+      background-color: lighten($color, $color-lighten-amount);
+    }
+  }
+}
 
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: $color-bakground;
+  color: $color-background;
   border: none;
-  padding: 10px 0;
+  padding: $standard-spacing 0;
   text-transform: uppercase;
   border-radius: $br;
-
-  @media #{$brk-wide} {
-    padding: 10px 30px;
-  }
 }
