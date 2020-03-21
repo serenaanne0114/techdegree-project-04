@@ -4,18 +4,18 @@
 @mixin mq($brk) {
   @media(min-width: $brk) {
     @content;
-}
+  }
 }
 
 @mixin column-colors {
   @for $i from 1 through $column-numbers {
     &-#{$i} {
-      background-color: nth($column-numbers, $i);
+      background-color: nth($colors-column, $i);
     }
   }
 }
 
-@mixin colums {
+@mixin columns {
   @for $i from 1 through $column-numbers {
     .col-#{$i} {
       $j: 100 /$column-numbers *$i;
