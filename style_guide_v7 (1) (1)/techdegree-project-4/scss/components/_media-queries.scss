@@ -25,12 +25,11 @@
   justify-content: center;
   margin-top: 0;
   align-items: center;
-}
 
-[class^=col] + [class^=col] {
+ + [class^=col] {
   margin-left: $standard-spacing;
+  }
 }
-
 @include columns;
 
 
@@ -42,19 +41,19 @@
 
 &-link {
   flex-basis: 100px;
-}
+  }
 }
 
 .btn {
   padding: $standard-spacing 30px;
 
  + .btn {
-  margin-left: 10px;
-}
+  margin-left: $standard-spacing;
+  }
 }
 
 .logo {
   margin-left: initial;
   margin-right: initial;
-}
+  }
 }
