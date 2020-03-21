@@ -6,24 +6,24 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
+  }
 
 .img {
 &-avatar {
   @extend %img;
   margin-top: $standard-spacing;
   max-height: 100%;
-}
+  }
 
 &-frame {
   @extend %img;
   margin-top: $standard-spacing;
   padding: 13px;
   border: 1px solid $color-img-frame;
-}
+  }
 
 &-logo {
   @extend %img;
   max-width: none;
-}
+  }
 }
